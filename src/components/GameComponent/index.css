@@ -1,0 +1,10 @@
+.popup-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
