@@ -18,11 +18,9 @@ const ButtonItem = props => {
   }
 
   return (
-    <ButtonItemContainer
-      onClick={onClickImage}
-      data-testid={dataAttributeValue}
-    >
-      <ImageButton type="button">
+    <ButtonItemContainer>
+      <ImageButton type="button"  onClick={onClickImage}
+      data-testid={dataAttributeValue}>
         <Image src={imageUrl} alt={id} />
       </ImageButton>
     </ButtonItemContainer>
